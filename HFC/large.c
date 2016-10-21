@@ -1,0 +1,21 @@
+/*
+ * Program to find the large between two numbers.
+ * This is licenced by the Ghost Public Licence.
+ * (c)2016, The Warmachine
+*/
+
+#include<stdio.h>
+
+int larger(int a,int b)
+{
+    if (a > b)
+        return a;
+    return b;
+}
+
+int main()
+{
+    int greatest = larger(100,1000);
+    printf("%i is the greatest!\n",greatest);
+   // return 0;
+}
